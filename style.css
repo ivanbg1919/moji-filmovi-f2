@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  color: #242424;
+  /*border: 1px solid #c4c4c4;*/
+}
+/*
+table,
+td,
+th {
+  border: 1px solid rgb(236, 236, 236);
+}
+*/
+tr {
+  background-color: #c4c4c4;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #87b372;
+}
+
+td {
+  /*border-top: 1px solid #ffffff;*/
+  padding: 10px;
+}
+
+th {
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.bg-info {
+  background-color: #236072;
+  color: white;
+}
